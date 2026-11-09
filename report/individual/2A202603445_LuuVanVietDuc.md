@@ -1,0 +1,186 @@
+# Báo cáo cá nhân — MSSV_HoTen
+
+> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
+> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
+> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+
+## 1. Thông tin học viên
+
+- Họ tên: Lưu Văn Việt Đức
+- MSSV:2A202603445
+- Email trường (không bắt buộc, repo có thể để public):
+- Tên nhóm: NhomNhomNhom
+- Link repo nhóm:https://github.com/bato-bato/K5-L3A-DAY02-NhomNhomNhom-DiscoveryProblemFraming.git
+
+## 2. Scan problem (CP1)
+
+Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
+
+| # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
+|---:|---|---|---|---|
+| 1 | Tốn thời gian | Khi bắt đầu bài tập, tôi muốn rõ các bước và thứ tự thực hiện, để lập kế hoạch đúng yêu cầu. | Tôi | Lab 02 tại VinUni ngày 06/11/2026: tôi hiểu chưa rõ hướng dẫn phần cá nhân, làm sai bước và thiếu ý; mất thêm 25–30 phút để làm rõ yêu cầu và lập lại kế hoạch. |
+| 2 | Lặp lại | Khi tích hợp code nhóm, tôi muốn thống nhất luồng xử lý, để tránh sửa lệch yêu cầu đã chốt. | Nhóm phát triển | Khi merge phần flashcard, bài tập và HLS video, luồng xử lý xung đột, mỗi người sửa một kiểu. Người phụ trách bài tập kiểm tra lại thấy lệch đề xuất ban đầu. Tôi sửa 2 lần, tổng khoảng 3 giờ theo trí nhớ. |
+| 3 | Lặp lại | Khi template đồ án thay đổi, tôi muốn rõ phần cần chuyển và bổ sung, để cập nhật đúng và giảm làm lại. | Nhóm viết tài liệu | Template đổi từ v0.8 → v0.9 → v1.0. Mỗi lần, nhóm mất khoảng 3 ngày để cập nhật theo trí nhớ; đây là thời gian hoàn thiện, không phải ngày công/người. |
+| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi xác định yêu cầu chức năng AI, tôi muốn rõ phạm vi nội dung được phép xử lý, để chức năng đáp ứng mục tiêu học tập. | Nhóm đồ án | Khi giảng viên thử yêu cầu ngoài nội dung bài học, AI vẫn trả lời và sinh nội dung không liên quan. Nhóm chưa thiết lập ràng buộc phạm vi bài học trong prompt. |
+| 5 | Cần đọc, tổng hợp nhiều thông tin | Khi nộp bài tại VinUni, tôi muốn kiểm tra đủ các bước, để tránh bỏ sót yêu cầu. | Tôi | Lab Day 01: tôi tưởng push code lên GitHub là hoàn tất nên bỏ sót Google Form; mất thêm 3–5 phút để bổ sung, vẫn kịp hạn. |
+| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi làm phần việc phụ thuộc thành viên khác, tôi muốn biết yêu cầu, người phụ trách và thời điểm bàn giao, để sắp xếp công việc và tránh xung đột. | Nhóm phát triển | Tôi thường xuyên tra bảng Excel để kiểm tra yêu cầu và tiến độ; một lần tìm yêu cầu flashcard mất khoảng 3–5 phút. Với notification, phần frontend của tôi cần chờ backend của bạn khác nên phải kiểm tra người phụ trách và thời gian dự kiến hoàn thành. |
+| 7 | Lặp lại | Khi sửa chức năng sau review, tôi muốn làm rõ kỳ vọng của giảng viên, để sửa đúng và hạn chế làm lại nhiều lần. | Nhóm đồ án | Chức năng log đăng nhập chưa đúng ý giảng viên, phải sửa 2 lần. Cuối cùng, nhóm bỏ chức năng này và chỉ ghi nhận ai đang làm bài trong tính năng bài kiểm tra. |
+
+**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
+**AI hỗ trợ scan và đề xuất **
+- Tôi đưa ra 7 vấn đề ban đầu từ trải nghiệm làm bài, học tập và đồ án nhóm.AI gợi ý bổ sung thêm các thông tin chi tiết của các vấn đề , rút gọn lại vấn đề tập trung vào trọng tâm và đặt hoài nghi cho vấn đề 7 vì chưa nói rõ ràng.
+- Tôi phản biện ý #7 vì nhóm có ghi hình tất cả các buổi review, chưa gặp tình trạng bỏ sót góp ý hoặc sửa trùng. 
+- Từ danh sách đang xem xét, AI đề xuất #2, #4 và #5 để phát triển thành Problem Card vì có phạm vi tương đối rõ và có thể bổ sung bằng chứng.
+- Tôi sẽ tự chốt top 3 sau khi kiểm tra lại trải nghiệm, quy trình và số liệu.
+
+
+## 3. Top 3 Problem Cards + quy trình nháp (CP2)
+
+### Bảng chọn top 3
+
+| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+|---:|---|---|---|
+| 1 | AI vẫn sinh tài liệu khi dữ liệu và yêu cầu không khớp — CP1 #4 | Có tình huống lỗi cụ thể khi review; nhóm chưa sửa thành công; có thể kiểm thử bằng các cặp dữ liệu–yêu cầu. | Cách xác định mức độ khớp và xử lý dữ liệu thiếu hoặc liên quan một phần. |
+| 2 | Tốn thời gian xử lý xung đột code khi tích hợp — CP1 #2 | Đã sửa 2 lần, tổng khoảng 3 giờ; ảnh hưởng nhiều thành viên. | Bao nhiêu thời gian có thể giảm nhờ thống nhất yêu cầu, bao nhiêu thuộc việc sửa code kỹ thuật? |
+| 3 | Bỏ sót bước xác nhận nộp bài — CP1 #5 | Có trải nghiệm thật, phạm vi nhỏ, dễ thử bằng checklist. | Mới ghi nhận một lần; checklist thủ công có thể đã đủ, chưa chắc cần AI. |
+
+### Problem Card #1 — Dữ liệu và yêu cầu sinh tài liệu không khớp
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi sinh tài liệu học tập từ dữ liệu đầu vào, tôi muốn biết dữ liệu có phù hợp với yêu cầu hay không, để tránh tạo nội dung sai và phải làm lại. |
+| Actor | Người soạn nội dung bài học trong hệ thống. |
+| Thời điểm / bối cảnh | Khi thêm hoặc sửa bài học và sử dụng AI để sinh tài liệu từ dữ liệu được cung cấp. |
+| Quy trình hiện tại (3–7 bước) | 1. Mở Add/Edit nội dung bài học; 2. Nhập dữ liệu dạng text hoặc tải Word, Excel, PDF; 3. Nhập yêu cầu sinh tài liệu; 4. Gửi cho AI xử lý; 5. Xem kết quả dạng text dưới phần input; 6. Kiểm tra nội dung có đáp ứng yêu cầu không. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4–6: chưa phát hiện sự không khớp trước khi sinh. Khi đưa dữ liệu Ngữ văn 8 và yêu cầu Toán 9, AI vẫn sinh nội dung Ngữ văn 8. Chưa đo thời gian xử lý lại; nhóm chưa sửa thành công. |
+| Impact (nếu không giải thì sao) | Người soạn phải tự phát hiện sai lệch, sửa yêu cầu và thử lại; có nguy cơ đưa nội dung không phù hợp vào bài học nếu kiểm tra không kỹ. |
+| Success metric (baseline → target) | **Baseline:** ca Ngữ văn 8 → yêu cầu Toán 9 vẫn sinh nội dung, không yêu cầu làm rõ. **Target đề xuất:** trên 20 ca thử gồm 10 ca khớp và 10 ca không khớp, xử lý đúng ít nhất 9/10 ca ở mỗi nhóm. Ca không khớp phải dừng sinh và yêu cầu làm rõ; ca khớp được tiếp tục sinh. |
+| Phương án không dùng AI | Gắn nhãn môn, lớp cho dữ liệu; yêu cầu chọn môn, lớp đầu ra; dùng quy tắc chặn khi nhãn không khớp và để người soạn kiểm tra nội dung. |
+| Giả thuyết về AI (nếu có) | AI có thể đối chiếu nội dung nguồn với yêu cầu và chỉ ra điểm không khớp. Nếu thiếu thông tin hoặc không chắc, hệ thống yêu cầu người dùng làm rõ trước khi sinh. Cần kiểm thử thay vì chỉ dựa vào việc sửa prompt. |
+| Cảm nhận nhanh | **Workflow** — kiểm tra đầu vào → xác nhận mức độ phù hợp → sinh nội dung hoặc yêu cầu làm rõ. |
+
+**Quy trình nháp hiện tại:**
+
+1. Mở Add/Edit bài học.
+2. Nhập dữ liệu nguồn và yêu cầu sinh tài liệu.
+3. Gửi AI xử lý.
+4. AI trả nội dung dạng text, kể cả khi dữ liệu và yêu cầu không khớp.
+5. Người soạn kiểm tra và phát hiện sai lệch.
+
+### Problem Card #2 — Tốn thời gian xử lý xung đột khi tích hợp code
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi tích hợp code nhóm, tôi muốn thống nhất cách giữ và kết nối các phần chức năng, để giảm xung đột và sửa lại nhiều lần. |
+| Actor | Tôi, các thành viên có code xung đột và trưởng nhóm. |
+| Thời điểm / bối cảnh | Khi tích hợp các phần flashcard, bài tập và HLS video vào đồ án nhóm. |
+| Quy trình hiện tại (3–7 bước) | 1. Xem yêu cầu trong Excel; 2. Mỗi người code phần mình; 3. Merge và chạy thử; 4. Tìm nguyên nhân xung đột; 5. Hỏi trưởng nhóm và thành viên liên quan, thống nhất cách xử lý; 6. Tách phần code xung đột để giữ cả hai chức năng rồi merge lại; 7. Kiểm thử. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4–5: tìm lỗi khoảng 20–30 phút, trao đổi khoảng 30 phút, chốt yêu cầu khoảng 5 phút; tổng 55–65 phút/lần. Code lại khoảng 20 phút và kiểm thử khoảng 10 phút. Tổng khoảng 85–95 phút/lần, phù hợp với ước lượng 2 lần mất khoảng 3 giờ. |
+| Impact (nếu không giải thì sao) | Các thành viên phải sửa và kiểm thử lại; việc tích hợp bị chậm, có nguy cơ sửa lệch yêu cầu hoặc ảnh hưởng chức năng của nhau. |
+| Success metric (baseline → target) | **Baseline:** khoảng 85–95 phút cho một lần xử lý như đã gặp. **Target đề xuất:** giảm còn tối đa 60 phút với ca tương đương, đồng thời cả hai chức năng vẫn vượt qua các bước kiểm thử đã thống nhất. |
+| Phương án không dùng AI | Thống nhất luồng xử lý và ranh giới phần việc trước khi code; ghi quyết định vào bảng chung; review thay đổi và dùng checklist kiểm thử trước khi merge. |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ đọc phần code xung đột, tóm tắt khác biệt và gợi ý câu hỏi cần thống nhất. Thành viên phụ trách xác nhận yêu cầu và quyết định cách sửa. |
+| Cảm nhận nhanh | **Workflow** — ưu tiên cải thiện phối hợp và kiểm tra trước merge; AI chỉ hỗ trợ phân tích. |
+
+**Quy trình nháp hiện tại:**
+
+1. Đọc yêu cầu trong Excel và code riêng.
+2. Merge code, chạy thử và phát hiện xung đột.
+3. Tìm lỗi: 20–30 phút.
+4. Trao đổi với trưởng nhóm và người liên quan: khoảng 30 phút.
+5. Chốt cách xử lý: khoảng 5 phút.
+6. Tách, sửa code để giữ hai chức năng và merge lại: khoảng 20 phút.
+7. Kiểm thử: khoảng 10 phút.
+
+### Problem Card #3 — Bỏ sót bước xác nhận nộp bài
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi nộp bài tại VinUni, tôi muốn kiểm tra đủ các bước bắt buộc, để hoàn thành đúng quy định và đúng hạn. |
+| Actor | Tôi khi thực hiện bài lab tại VinUni. |
+| Thời điểm / bối cảnh | Khi hoàn thành Lab Day 01; hướng dẫn điền Google Form nằm cuối tài liệu PDF trên LMS nhưng tôi chưa đọc hết. |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc hướng dẫn trên LMS nhưng chưa hết; 2. Fork repository; 3. Làm bài; 4. Push code và tưởng đã hoàn tất; 5. Nghe lab coach nhắc khi một bạn hỏi; 6. Mở Google Form, điền thông tin và link GitHub đã fork rồi gửi. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1 và 4: chưa đọc đủ hướng dẫn nên xác định sai thời điểm hoàn tất. Sau khi phát hiện, mất thêm khoảng 3–5 phút để điền form; vẫn kịp hạn. |
+| Impact (nếu không giải thì sao) | Có nguy cơ hoàn thành code nhưng chưa hoàn tất thủ tục nộp bài, hoặc phát hiện thiếu bước khi đã hết hạn. |
+| Success metric (baseline → target) | **Baseline:** bỏ sót 1 bước bắt buộc trong lần nộp Lab Day 01. **Target đề xuất:** không bỏ sót bước bắt buộc trong 3 lần nộp tiếp theo, đối chiếu checklist với hướng dẫn gốc. |
+| Phương án không dùng AI | Đọc hết hướng dẫn, tự lập checklist và đánh dấu từng bước; kiểm tra lại trước hạn nộp. |
+| Giả thuyết về AI (nếu có) | AI có thể trích các bước bắt buộc từ tài liệu thành checklist, kèm vị trí nguồn để người học kiểm tra. Lợi ích cần được so sánh với checklist tự lập. |
+| Cảm nhận nhanh | **No AI** — thử checklist thủ công trước; chỉ cân nhắc AI nếu hướng dẫn dài hoặc phân tán. |
+
+**Quy trình nháp hiện tại:**
+
+1. Đọc chưa hết PDF hướng dẫn trên LMS.
+2. Fork repository và làm bài.
+3. Push code, tưởng đã nộp xong.
+4. Một bạn hỏi, lab coach nhắc về Google Form.
+5. Mở form, điền thông tin và link GitHub.
+6. Gửi form sát thời hạn.
+
+### Card muốn pitch nhất
+
+- **Card số:** 1 — Dữ liệu và yêu cầu sinh tài liệu không khớp.
+- **Vì sao:** Có lỗi cụ thể đã quan sát khi review và nhóm chưa sửa thành công. Phạm vi thử nghiệm rõ: phát hiện sự không khớp trước khi cho phép sinh tài liệu.
+- **Câu hỏi muốn nhóm phản biện:** Chọn môn/lớp và kiểm tra bằng quy tắc đã đủ chưa, hay cần AI đọc nội dung nguồn? Với dữ liệu chỉ liên quan một phần, khi nào nên yêu cầu người dùng làm rõ?
+
+### AI đã phản biện card thế nào
+
+| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|
+| Mô tả ban đầu của vấn đề AI chưa đúng trọng tâm lỗi thực tế. | Đồng ý | Chuyển từ “sinh nội dung ngoài bài học” sang “chưa kiểm tra sự khớp giữa dữ liệu và yêu cầu”. |
+| Chưa có số liệu đo hiệu quả hoặc thời gian xử lý cho Card #1. | Đồng ý | Ghi rõ chưa đo; tách ca lỗi đã quan sát khỏi target thử nghiệm đề xuất. |
+| Card #2 có thể cần cải thiện phối hợp trước khi dùng AI. | Đồng ý | Bổ sung phương án thống nhất yêu cầu, review và checklist; giới hạn AI ở vai trò hỗ trợ phân tích. |
+| Card #3 chưa chứng minh cần AI và mới có một lần bỏ sót. | Đồng ý | Chọn No AI cho hướng thử ban đầu và đề xuất theo dõi 3 lần nộp tiếp theo. |
+
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Gom cluster / cây OST | | |
+| Chọn candidate problem | | |
+| Kiểm chứng / research | | |
+| Quy trình nhóm | | |
+| Problem Statement | | |
+| Mức can thiệp AI | | |
+| Quyết định | | |
+
+---
+
+## 5. Dùng AI
+
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+|---|---|---|---|---|
+| CP1 Scan | | | | |
+| CP2 Problem Card | | | | |
+| CP4 Research | | | | |
+| CP5 Quy trình | | | | |
+| CP5–6 Problem Statement | | | | |
+| CP6 Mức can thiệp / quyết định | | | | |
+
+---
+
+## 6. Reflection (CP7)
+
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+---
+
+## 7. Tài liệu tham khảo
+
+-
