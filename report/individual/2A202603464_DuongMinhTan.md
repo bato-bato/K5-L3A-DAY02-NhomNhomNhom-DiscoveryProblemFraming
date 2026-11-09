@@ -19,6 +19,7 @@
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
+|---|---|---|---|
 | 1 | Lặp lại |Khi tôi muốn nộp bài lab hàng ngày tôi muốn soát toàn bộ checklist cách nộp bài(định dạng file, câu thư mục, commit author, link nộp) để không bị trừ điểm do vi phạm hình thức nộp bài |Học viên AI thực chiến|1-2 lần/ngày, mất 5-10 phút rà soát thủ công tên file, link nộp bài, từng bị trừ điểm vì đặt sai format tên file |
 | 2 | Lặp lại | Khi tôi  chuẩn bị đi ngủ, tôi muốn ghi chép và gom các khoản chi tiêu nhỏ lẻ từ 3 ứng dụng ngân hàng và ví điện tử vào một chỗ, để theo dõi xem mình đã tiêu hết bao nhiêu tiền trong ngày mà không bị thâm hụt ngân sách tháng. | Sinh viên/người trẻ sống tự lập | 7 ngày/tuần; mỗi tối mất 10–15 phút mở app ngân hàng, MoMo, kiểm tra tin nhắn trừ tiền; cuối tháng trước bị hụt 600.000đ mà không nhớ rõ đã tiêu vào việc gì. |
 | 3 | Lặp lại | Khi tôi muốn chia tiền điện, nước và tiền chợ theo số ngày mỗi người ở phòng để mọi người đóng tiền công bằng, tránh tranh cãi | Người đứng tên thuê trọ, 2 bạn cùng phòng | 1 lần/tuần, mất 15–20 phút tính toán và đối chiếu lịch; từng tranh cãi do tính nhầm 80.000đ tiền nước.
@@ -42,6 +43,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 ### Bảng chọn top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+|---|---|---|---|
 | 1 | Tìm phòng trọ: Lọc tin thật, loại bỏ tin môi giới/cò phòng ảo (#4) | Nỗi đau đời sống rất lớn và cấp thiết của sinh viên; quy trình sàng lọc nhiều bước tốn thời gian; bottleneck phân loại bài đăng rất cụ thể; dễ so sánh Rule vs Workflow. | Bài đăng trên mạng xã hội có nhiều tiếng lóng, viết tắt và hình thức lừa đảo/cò mồi thay đổi liên tục. |
 | 2 | Quản lý chi tiêu: Gom và đối soát chi tiêu nhỏ lẻ từ nhiều app ví/ngân hàng (#2) | Tần suất lặp lại hằng ngày (7 ngày/tuần); quy trình đối chiếu rõ ràng; đo được số phút và số tiền thất thoát baseline. | Vấn đề bảo mật thông tin tài chính cá nhân và quyền riêng tư khi xử lý tin nhắn biến động số dư. |
 | 3 | Nộp bài: Đối soát checklist quy chuẩn nộp bài lab trước deadline (#1) | Tần suất lặp lại hàng tuần; rủi ro trừ điểm hình thức nặng; quy trình kiểm tra các file rất cụ thể; là bài toán điển hình để so sánh No AI/Rule với AI. | Mỗi môn học có format nộp bài khác nhau, liệu có cần AI hay chỉ cần một đoạn script định sẵn là đủ? |
@@ -49,6 +51,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 ### Problem Card #1
 
 | Trường | Nội dung |
+|---|---|
 | Job Story | Khi cần tìm phòng trọ mới để chuyển chỗ ở, tôi muốn lọc ra các phòng trọ thực tế đúng theo ngân sách, bán kính 3km quanh trường và không chung chủ từ hàng chục bài đăng trên mạng xã hội, để hẹn lịch đi xem phòng thật mà không bị mất thời gian bởi bài đăng của môi giới/cò phòng ảo. |
 | Actor | Sinh viên, người trẻ đi thuê phòng trọ |
 | Thời điểm / bối cảnh | Trước khi hết hạn hợp đồng nhà cũ khoảng 2–3 tuần (thường vào đầu kỳ học mới hoặc cuối năm) |
@@ -73,12 +76,13 @@ flowchart TD
 ### Problem Card #2
 
 | Trường | Nội dung |
+|---|---|
 | Job Story | Khi cuối ngày chuẩn bị đi ngủ, tôi muốn ghi chép và gom các khoản chi tiêu nhỏ lẻ từ 3 ứng dụng ngân hàng và ví điện tử vào một chỗ, để theo dõi xem mình đã tiêu hết bao nhiêu tiền trong ngày mà không bị thâm hụt ngân sách tháng. |
 | Actor | Sinh viên, người trẻ sống tự lập tự quản lý tài chính |
 | Thời điểm / bối cảnh | 22h00 – 23h00 mỗi tối trước khi đi ngủ |
 | Quy trình hiện tại (3–7 bước) | 1. Mở lần lượt 3 ứng dụng (Vietcombank, MoMo, ZaloPay) (5 phút)<br>2. Xem lịch sử biến động số dư và ghi nhớ các khoản chi trong ngày (10 phút)<br>3. Mở ứng dụng ghi chép sổ thu chi hoặc Google Sheets trên điện thoại (3 phút)<br>4. Nhập từng khoản tiền và phân loại thủ công vào danh mục (ăn uống, đi lại, đồ dùng) (12 phút)<br>5. Tính tổng số tiền đã tiêu trong ngày và so sánh với hạn mức ngân sách ngày (5 phút) |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 4 (Nhập từng khoản tiền và nhớ lại mục đích chi tiêu để phân loại): mất 12 phút, hay bị quên khoản tiền mặt nhỏ hoặc lười nhập khi có nhiều giao dịch lẻ |
-| Impact (nếu không giải thì sao) | Bỏ dở việc theo dõi chi tiêu sau 1–2 tuần, thâm hụt tài chính cuối tháng (trung bình hụt 500k–1 triệu không rõ nguyên nhân), căng thẳng tài chính |
+| Impact (nếu không giải thì sao) | Bỏ dở việc theo dõi chi tiêu sau 1–2 tuần, thâm hụt tài chính cuối tháng (trung bình hụt 100-400k không rõ nguyên nhân), căng thẳng tài chính |
 | Success metric (baseline → target) | Baseline: 35 phút/ngày ghi chép thủ công, tỷ lệ duy trì sổ sách dưới 40% số ngày trong tháng.<br>Target: Dưới 3 phút/ngày, duy trì theo dõi đều đặn 90% số ngày trong tháng.<br>Cách đo: Thời gian ghi chép mỗi tối và số ngày ghi chép đầy đủ trong tháng. |
 | Phương án không dùng AI | Chỉ dùng 1 tài khoản/thẻ duy nhất cho mọi chi tiêu và đặt hạn mức cảnh báo số dư trên app ngân hàng |
 | Giả thuyết về AI (nếu có) | AI phân loại tự động nội dung giao dịch (chuyển tiền ăn, tiền xăng) vào đúng danh mục chi tiêu qua ảnh chụp màn hình lịch sử giao dịch |
@@ -97,6 +101,7 @@ flowchart TD
 ### Problem Card #3
 
 | Trường | Nội dung |
+|---|---|
 | Job Story | Khi chuẩn bị nộp bài tập lớn/lab hàng tuần trên GitHub và hệ thống nộp bài LMS, tôi muốn đối soát toàn bộ checklist quy cách nộp (định dạng tên file, cây thư mục, commit author, link nộp), để không bị trừ điểm oan do vi phạm quy chế hình thức. |
 | Actor | Sinh viên, học viên thực hành kỹ thuật/AI |
 | Thời điểm / bối cảnh | 30–60 phút trước hạn chót nộp bài lab (23h59) |
@@ -127,6 +132,7 @@ flowchart TD
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|
 | Metric ban đầu "tìm phòng nhanh hơn và đỡ mệt hơn" là định tính, không thể đo lường được. | Đồng ý | Đã sửa lại thành Success Metric định lượng: "Giảm thời gian từ 115 phút/ngày xuống dưới 30 phút/ngày; chốt được 3 phòng thật để hẹn xem trực tiếp trong vòng 3 ngày thay vì 10 ngày". |
 | Đề xuất ban đầu định dùng AI tự động nhắn tin đặt cọc phòng trọ cho người dùng là quá nguy hiểm (rủi ro lừa đảo cao). | Đồng ý | Đã giới hạn rõ ranh giới (Boundary): AI chỉ hỗ trợ trích xuất thông tin và gắn nhãn cảnh báo độ tin cậy; việc liên hệ, xem phòng và đặt cọc 100% do con người trực tiếp thực hiện. |
 | Bước nghẽn ban đầu chỉ ghi chung chung là "khâu tìm kiếm mất thời gian". | Đồng ý | Đã làm rõ bottleneck là "Bước 4: Nhắn tin hỏi thông tin và chờ phản hồi để xác định phòng thật hay cò mồi (30 phút/buổi, hơn 60% là tin ảo)". |
@@ -137,9 +143,9 @@ flowchart TD
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Pitch Problem Card | Trình bày Top 3 card cá nhân, tập trung sâu vào Card #1 (Lọc tin tìm phòng trọ tránh cò ảo) và Card #3 (Checklist soát bài lab). | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Một trang Notion FAQ công khai hoặc bài ghim có đủ giải quyết vấn đề không, có nhất thiết cần AI?"| |
+| Nhận phản biện | Câu hỏi tôi nhận được:"Văn phong cò mồi ngày càng giống người thật thì AI có lọc nhầm phòng thật thành tin ảo không?" | Tôi đã sửa gì: Tôi đã sửa lại Boundary trong card của mình: AI chỉ gắn nhãn nghi vấn cảnh báo độ tin cậy, không tự động ẩn/xóa tin; con người là người quyết định cuối cùng có liên hệ xem phòng hay không.|
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | | |
