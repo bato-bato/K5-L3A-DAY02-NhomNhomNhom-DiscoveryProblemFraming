@@ -87,49 +87,90 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.1. Assumption Map
 
+Thang điểm: 1 = thấp, 5 = cao. Điểm bằng chứng dựa trên thông tin đã xác nhận, không tính các tình huống minh họa tại mục 3.2.
+
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Tuyển thủ phải tìm hoặc đối chiếu nhiều thông báo để xác định thông tin mới nhất. | Value | 5 | 2 | Có |
+| 2 | Việc tìm thông tin và chờ BTC phản hồi ảnh hưởng đến quá trình chuẩn bị tham gia. | Value | 5 | 1 | Có |
+| 3 | Một trang thông tin tập trung và FAQ có thể giúp tuyển thủ tự tìm câu trả lời. | Usability | 5 | 1 | Có |
+| 4 | BTC có thể cung cấp nguồn chính thức và duy trì cập nhật khi có thay đổi. | Feasibility | 5 | 1 | Có |
+| 5 | Hỏi đáp bằng ngôn ngữ tự nhiên mang lại lợi ích hơn tìm kiếm và FAQ thông thường. | Value | 4 | 1 | Sau khi thử phương án không AI |
+| 6 | BTC có đủ người phụ trách cập nhật, kiểm tra và xử lý câu hỏi chưa có đáp án. | Viability | 4 | 1 | Có |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+**Giả định nhóm ưu tiên kiểm chứng:** Giả định 1–4, nhằm xác định khó khăn nằm ở việc tìm nguồn, hiểu thông báo, nhận cập nhật hay chờ BTC phản hồi.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+**Cách đã dùng:** Rà soát tài liệu công khai về giải đấu. Chưa có kết quả phỏng vấn hoặc survey được xác nhận.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+> P01–P03 dưới đây là tình huống minh họa do AI hỗ trợ xây dựng. Các câu nói và thời gian không phải dữ liệu phỏng vấn thực tế.
+
+#### Interview Snapshot P01 — Minh họa
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Vai trò giả định: tuyển thủ TFT lần đầu tham gia giải. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có lời trích thực tế. Câu minh họa: “Tôi thấy giờ thi đấu rồi, nhưng chưa rõ phải có mặt trước bao lâu để check-in.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tình huống giả định: sau khi đăng ký, người chơi quay lại tìm giờ có mặt. Bài giới thiệu có giờ thi đấu nhưng người chơi chưa xác định được giờ check-in. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đọc lại bài đăng và form, sau đó nhắn BTC để xác nhận. |
+| Mất bao lâu, bao lần? | Giả định: 5 phút tìm kiếm và 15 phút chờ phản hồi trong một tình huống. |
+| Insight / opportunity rút ra | Giả thuyết cần kiểm tra: người chơi cần phân biệt rõ giờ check-in và giờ bắt đầu thi đấu. |
 
-Tổng hợp:
+#### Interview Snapshot P02 — Minh họa
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Vai trò giả định: tuyển thủ từng tham gia giải cộng đồng. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có lời trích thực tế. Câu minh họa: “Tôi thấy hai giờ khác nhau nên phải hỏi lại lịch nào đang áp dụng.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tình huống giả định: người chơi xem ảnh lịch đã lưu, sau đó gặp thông báo mới có thời gian khác và cần xác nhận bản có hiệu lực. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đọc tin nhắn gần nhất, hỏi người phụ trách và lưu thông báo mới. |
+| Mất bao lâu, bao lần? | Giả định: 5 phút đối chiếu và 10 phút chờ xác nhận trong một tình huống. |
+| Insight / opportunity rút ra | Giả thuyết cần kiểm tra: người chơi cần nhận biết phiên bản thông báo, thời điểm cập nhật và trạng thái hiệu lực. |
+
+#### Interview Snapshot P03 — Minh họa
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Vai trò giả định: thành viên BTC hỗ trợ tuyển thủ. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có lời trích thực tế. Câu minh họa: “Có thông tin trong hướng dẫn rồi, nhưng một số bạn chỉ xem ảnh giới thiệu hoặc link form.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tình huống giả định: BTC nhận câu hỏi về giờ có mặt, địa chỉ thi đấu và điều kiện đăng ký dù đã có hướng dẫn. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Gửi lại link hướng dẫn hoặc câu trả lời có sẵn; chuyển trường hợp đặc biệt cho người phụ trách. |
+| Mất bao lâu, bao lần? | Giả định: 1–2 phút xử lý một câu hỏi quen thuộc; chưa xác định số câu hỏi mỗi giải. |
+| Insight / opportunity rút ra | Giả thuyết cần kiểm tra: cần cải thiện đường dẫn đến hướng dẫn và cách trình bày trước khi bổ sung công cụ mới. |
+
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Bài VNGGames ngày 18/09/2025 | 1 bài công khai | Liệt kê “ĐH XÂY DỰNG HÀ NỘI – XAYGAME” trong nhóm giải Campus TFT, khu vực Hà Nội; xác nhận bối cảnh giải đấu có thật. | Không cung cấp bằng chứng tuyển thủ gặp khó hoặc cần AI. |
+| P01–P03 | 0 người được xác nhận phỏng vấn; 3 tình huống minh họa | Chưa có tín hiệu xác nhận thực tế. Các tình huống giúp xác định câu hỏi cần kiểm tra. | Các khả năng cần kiểm tra gồm: thông báo được ghim có thể đã đủ; người chơi có thể chưa đọc hướng dẫn thay vì thiếu thông tin. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
+Qua rà soát tài liệu công khai, nhóm xác nhận được bối cảnh giải đấu gắn với XayGame nhưng chưa xác nhận nguyên nhân hoặc mức độ khó khăn của tuyển thủ.
+
+Nhóm điều chỉnh hướng kiểm chứng từ nhận định chung “khó tiếp cận thông tin” sang việc tìm hiểu khả năng **tìm đúng nguồn và xác định thông báo đang có hiệu lực**. Cần phân biệt ba nguyên nhân: thông tin chưa rõ, cập nhật chưa đồng bộ và người tham gia chưa đọc hướng dẫn.
+
+Đây là điều chỉnh phạm vi nghiên cứu, chưa phải kết luận từ phỏng vấn. Thời gian tìm thông tin, thời gian chờ BTC và số câu hỏi lặp lại vẫn chưa đo.
+
 ### 3.3. Research giải pháp đã có
+
+Các tính năng được tham khảo từ tài liệu công khai. Khoảng trống và bài học là nhận định của nhóm, chưa phải kết quả triển khai thử với XayGame.
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Trang thông tin tập trung bằng Notion Sites | [Tài liệu chính thức](https://www.notion.com/help/public-pages-and-web-publishing) | Đọc và tra cứu thông tin giải. | Xuất bản trang ra web; có thể tổ chức lịch, địa điểm, thể lệ và FAQ trên một địa chỉ. | Vẫn cần BTC duy trì cập nhật; người chơi có thể không nhận ra thay đổi. | Thử một nguồn chính thức, ghi thời điểm cập nhật và người phụ trách. |
+| Discord Forum Channels | [Tài liệu chính thức](https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ) | Tìm thông báo và câu trả lời theo chủ đề. | Có bài theo chủ đề, tag, tìm kiếm và lọc. | Cần Community server; chưa xác định mức độ sử dụng Discord của tuyển thủ XayGame. | Tổ chức chủ đề rõ ràng và kiểm tra khả năng tìm kiếm trước khi dùng AI. |
+| start.gg — dữ liệu theo giải/event | [Tài liệu Get Event](https://developer.start.gg/docs/examples/queries/get-event/) | Xác định đúng nội dung thi đấu khi truy xuất dữ liệu. | Event có ID và tên, hỗ trợ truy vấn tiếp thông tin liên quan. | Chưa kiểm chứng khả năng đáp ứng toàn bộ thông báo và FAQ riêng của XayGame. | Dữ liệu phải gắn đúng giải, bộ môn và phiên bản để tránh trả nhầm. |
+
+**Nguồn xác nhận bối cảnh:** [VNGGames — Tổng hợp giải ĐTCL từ ngày 18–28/09/2025](https://community.vnggames.com/news/tft/dtcl-vdqg-tong-hop-giai-dau-vo-dich-quoc-gia-t-ngay-18-09-28-09-2025.html).
+
+**Kết luận research:**
+
+Đã có các phương án tổ chức và tra cứu thông tin không cần AI. Nhóm nên so sánh một trang thông tin chính thức và FAQ với phương án hỏi đáp trước khi chọn mức can thiệp.
+
+Nếu thử AI, hệ thống chỉ trả lời từ nguồn BTC đã xác nhận, dẫn nguồn và chuyển cho BTC xử lý khi thiếu hoặc mâu thuẫn dữ liệu. AI không tự thay đổi lịch, thể lệ hoặc quyết định điều kiện tham gia.
 
 ---
 
