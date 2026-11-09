@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Tống Thiên Bảo | 2A202603461 | Trưởng nhóm, domain owner, phụ trách CP3 & CP4 | bato-bato |
-| 2 | Nguyễn Quang Hiệp | 2A202603509 | Phụ trách CP5 (Quy trình Before/After & Problem Statement v0) | Hiep Quang |
-| 3 | Dương Minh Tân | 2A202603464 | Phụ trách CP6 (Mức can thiệp & Quyết định) | minhtanhehe |
-| 4 | Lưu Văn Việt Đức | 2A202603445 | Phụ trách CP4 (Research) | |
+| 1 | | | | |
+| 2 | Nguyễn Quang Hiệp | 2A202603509 | Phụ trách CP5 (Quy trình Before/After & Problem Statement v0) | hiepquangnguyen |
+| 3 | | | | |
+| 4 | | | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,17 +25,35 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | Tống Thiên Bảo | Nhóm | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | Tống Thiên Bảo | Nhóm | Assumption map, snapshot hoặc survey |
-| CP4 — Research | Lưu Văn Việt Đức | Nhóm | Bảng research có link |
+| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
+| CP4 — Research | | | Bảng research có link |
 | CP5 — Quy trình trước/sau | Nguyễn Quang Hiệp | Nhóm | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Nguyễn Quang Hiệp | Nhóm | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Dương Minh Tân | Nhóm | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Dương Minh Tân | Nhóm | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
+
+### HoVaTen-MSSV
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
 
 ### NguyenQuangHiep-2A202603509
 
