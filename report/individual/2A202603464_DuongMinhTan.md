@@ -10,7 +10,7 @@
 - MSSV:2A202603464
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm:NhomNhomNhom
-- Link repo nhóm: https://github.com/bato-bato/-K5-L3A-DAY02-NhomNhomNhom-DiscoveryProblemFraming.git
+- Link repo nhóm: https://github.com/bato-bato/K5-L3A-DAY02-NhomNhomNhom-DiscoveryProblemFraming.git
 
 ---
 
@@ -143,16 +143,16 @@ flowchart TD
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Trình bày Top 3 card cá nhân, tập trung sâu vào Card #1 (Lọc tin tìm phòng trọ tránh cò ảo) và Card #3 (Checklist soát bài lab). | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Một trang Notion FAQ công khai hoặc bài ghim có đủ giải quyết vấn đề không, có nhất thiết cần AI?"| |
-| Nhận phản biện | Câu hỏi tôi nhận được:"Văn phong cò mồi ngày càng giống người thật thì AI có lọc nhầm phòng thật thành tin ảo không?" | Tôi đã sửa gì: Tôi đã sửa lại Boundary trong card của mình: AI chỉ gắn nhãn nghi vấn cảnh báo độ tin cậy, không tự động ẩn/xóa tin; con người là người quyết định cuối cùng có liên hệ xem phòng hay không.|
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 card cá nhân: Lọc tin trọ (#4), Gom chi tiêu (#5), Soát checklist lab (#6). | Bài #4 vào shortlist chấm điểm; bài #6 được xếp vào nhóm thuần Rule. |
+| Phản biện bài của bạn khác | Hỏi Bảo (#1): *"Tuyển thủ thiếu thông tin hay bị trôi khó tìm? Trang Notion FAQ tập trung có đủ không?"* | Nhóm đưa câu hỏi "Trang FAQ tĩnh (No AI) có đủ không?" vào Assumption Map (CP4) để kiểm chứng. |
+| Nhận phản biện | Bảo hỏi bài tìm trọ (#4): *"Facebook chặn scraping thì lấy bài thế nào? Cò viết như người thật thì AI có lọc nhầm không?"* | Tôi sửa lại Boundary card #4: AI chỉ gắn nhãn cảnh báo, người dùng tự quyết định liên hệ. |
+| Gom cluster / cây OST | Cùng nhóm gom 12 candidate thành 3 cluster (A, B, C) và viết cây OST. | Gạch bỏ 2 solution đội lốt (*"Chatbot AI"*, *"App giải đấu"*), giữ lại 3 nhánh thuần pain. |
+| Chọn candidate problem | Chấm điểm shortlist và đồng thuận chọn bài #1 (Giải đấu XAY MAJOR) của Bảo thay vì bài tìm trọ. | Nhóm chốt bài #1 (34/35 điểm) vì có sẵn người dùng thật tại CLB để khảo sát ngay. |
+| Kiểm chứng / research | Lập Assumption Map; rà soát log câu hỏi gửi BTC và tìm hiểu Discord FAQ, Battlefy, Dify RAG. | Xác nhận đa số câu hỏi lặp lại là về lịch/thể lệ; thống nhất phải chuẩn hóa 1 nguồn dữ liệu gốc của BTC trước. |
+| Quy trình nhóm | Vẽ sơ đồ quy trình Hiện tại & Tương lai bằng Mermaid, lập bảng Before/After. | Chỉ rõ bottleneck chờ BTC trả lời (20–45'); thêm bước Rule lọc khiếu nại chuyển Trọng tài (HITL) và fallback. |
+| Problem Statement | Cùng nhóm viết Problem Statement v0 và cập nhật lên v1. | Thêm metric chất lượng ở v1: 100% câu trả lời có dẫn nguồn điều khoản, 0% dùng thông báo cũ. |
+| Mức can thiệp AI | So sánh 4 mức (No AI / Rule / Workflow / Agent) và trả lời 2 câu hỏi PAIR. | Chốt mức Workflow; thống nhất "Báo nhầm tệ hơn bỏ sót" vì báo sai lịch làm tuyển thủ bị xử thua. |
+| Quyết định | Đánh giá 4 rủi ro và đề xuất ngưỡng dừng cho pilot. | Chốt "Go, phạm vi nhỏ" kèm ngưỡng dừng: báo sai lịch/luật dù chỉ 1 lần thì dừng bot, quay về FAQ tĩnh. |
 
 ---
 
@@ -160,12 +160,12 @@ flowchart TD
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý thêm các góc nhìn thực tế theo 4 lăng kính và chỉnh format Job Story. | Mở rộng được các khía cạnh đời sống ngoài học tập (tìm trọ, hỗ trợ người thân). | Ban đầu AI đưa ra các ý quá rộng hoặc solution-first ("chatbot nấu ăn", "AI làm thay bài tập"). | Lọc bỏ các ý kiến viễn vông, tự viết lại các con số đo lường (baseline thời gian, tần suất) từ trải nghiệm thật của bản thân. |
-| CP2 Problem Card | Đóng vai PM hoài nghi phản biện điểm yếu trong Problem Card và vẽ sơ đồ quy trình Mermaid. | Chỉ ra các metric ban đầu bị chung chung/định tính và cảnh báo rủi ro nếu để AI tự quyết định thay con người. | AI có xu hướng thích giải pháp "Agent tự động hóa hoàn toàn", bỏ qua các yếu tố an toàn và độ tin cậy trong đời sống thực tế. | Đặt lại ranh giới (Boundary): AI chỉ trích xuất thông tin và gắn nhãn cảnh báo độ tin cậy; con người giữ quyền kiểm duyệt (HITL); sửa metric thành định lượng đo được. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm vấn đề theo 4 lăng kính và chỉnh format Job Story. | Mở rộng góc nhìn ngoài học tập (tìm trọ, hỗ trợ người thân). | Đưa ra một số ý solution-first ("chatbot nấu ăn", "AI làm bài tập"). | Bỏ các ý viễn vông, tự điền số liệu thời gian/tần suất từ trải nghiệm thật. |
+| CP2 Problem Card | Đóng vai PM hoài nghi phản biện card và vẽ sơ đồ Mermaid. | Chỉ ra metric ban đầu còn cảm tính và rủi ro nếu để AI tự quyết. | Thiên về hướng "Agent tự động hóa hoàn toàn", thiếu an toàn thực tế. | Giữ Boundary: AI chỉ trích xuất & gắn nhãn cảnh báo, con người duyệt (HITL); sửa metric thành định lượng. |
+| CP4 Research | Tìm công cụ hỗ trợ giải đấu Esports và hỏi đáp tài liệu (RAG). | Gợi ý nhanh Discord Forum FAQ, Battlefy, Dify RAG. | Gợi ý bot tự xử lý cả khiếu nại trận đấu; một số link bị cũ. | Tự mở kiểm tra từng link; bỏ ý để AI xử lý khiếu nại, chỉ giới hạn tra cứu điều lệ/lịch. |
+| CP5 Quy trình | Chuyển mô tả quy trình thành sơ đồ Mermaid. | Vẽ flowchart nhanh, rõ các bước trước/sau. | Gộp chung câu hỏi thường và khiếu nại vào một luồng AI, thiếu fallback. | Tách bước Rule chuyển khiếu nại cho Trọng tài (HITL) và thêm fallback về trang FAQ gốc. |
+| CP5–6 Problem Statement | Nhờ AI bắt lỗi bản Problem Statement v0. | Chỉ ra v0 mới đo tốc độ trả lời, chưa đo độ chính xác. | Gợi ý metric cảm tính ("tuyển thủ hài lòng hơn") khó đo. | Sửa thành metric đo được: 100% câu trả lời có trích dẫn mục điều lệ, 0% dùng thông báo cũ. |
+| CP6 Mức can thiệp / quyết định | So sánh 4 mức can thiệp và rà soát 4 rủi ro. | Hệ thống hóa nhanh bảng AI Canvas và tiêu chí eval. | Khuyến khích chọn Agent tự cập nhật lịch từ nhiều kênh chat. | Giữ mức Workflow (trên 1 nguồn chuẩn của BTC) để tránh lấy nhầm tin cũ; tự chốt ngưỡng dừng. |
 
 ---
 
@@ -174,21 +174,30 @@ flowchart TD
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi nghe các bạn trình bày top 3 problems mình nhận ra một bài toán tốt trong phạm vi lab không cần phạm vi quá lớn mà quan trọng là có người dùng thật và giải quyết được painpoint của nhóm người dùng đó.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có ngay lúc đầu khi chốt chọn bài làm chat bot giải đấu Esport cả nhóm đã nghĩ tới việc làm con chat bot trên discord để tự trả lời câu hỏi về thể thức giải đấu cho tuyển thủ. Nhưng khi ngồi vẽ cây OST mới nhận ra nếu BTC giải đấu chưa có một nguồn thông tin chuẩn duy nhất thì chatbot AI cũng sẽ xảy ra trường hợp lấy nhầm thông báo. Vì vậy phải quay lại gốc vấn đề là chuẩn hóa một trang thông tin gốc của BTC trước.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Mình đã đổi ý ở cả bài cá nhân lẫn khi chọn bài nhóm. Lúc đầu mình rất muốn giữ bài "Lọc tin tìm phòng trọ tránh cò ảo" làm bài chính. Nhưng khi Bảo hỏi: "Group Facebook chặn cào dữ liệu thì lấy bài thế nào? Văn phong cò mồi giờ giống hệt sinh viên nhượng phòng thì AI lọc nhầm phòng thật tính sao?", mình thấy rủi ro kỹ thuật và rủi ro lọc nhầm đều quá lớn. Mình đã sửa lại Boundary của card (chỉ gắn nhãn cảnh báo chứ không tự ẩn bài) và đồng ý chọn bài giải đấu XAY MAJOR của Bảo làm bài nhóm.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Mình khá bất ngờ khi đối chiếu các câu hỏi tuyển thủ gửi về BTC: trước đó mình tưởng tuyển thủ chỉ lười đọc nên mới hỏi lại, nhưng thực tế nhiều bạn đã đọc bài đăng trên Fanpage rồi mà vẫn phải nhắn hỏi BTC vì sợ lịch thi đấu hoặc bảng đấu vừa bị đổi trong nhóm chat Zalo mà mình bị trôi tin nhắn không biết. Tức là nỗi đau lớn nhất nằm ở việc "không chắc thông tin mình đang xem có phải bản mới nhất hay không".
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là viết phần Success Metric và Boundary sao cho cụ thể, không bị chung chung. Lúc đầu nhóm rất dễ viết kiểu "giúp tuyển thủ tìm thông tin nhanh hơn, giảm tải cho BTC", sau đó phải sửa lại thành con số đo được và thêm điều kiện bắt buộc: 100% câu trả lời của AI phải trích dẫn rõ mục nào trong điều lệ và không được dùng thông báo cũ đã hết hiệu lực.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, mình sẽ khảo sát thêm các bạn tuyển thủ ở những đội mới tham gia lần đầu xem họ vướng ở bước đăng ký hay bước xem lịch nhiều hơn. Ngoài ra, mình sẽ phản biện kỹ hơn về quy trình vận hành của BTC: ai trong CLB sẽ chịu trách nhiệm cập nhật file điều lệ/lịch đấu gốc khi có thay đổi đột xuất sát giờ thi đấu, vì nếu người phụ trách quên cập nhật file gốc thì hệ thống tra cứu cũng sẽ sai theo.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Bài toán của nhóm là giải quyết việc tuyển thủ giải XAY MAJOR 2026 khó tìm lịch thi đấu, thể lệ bị trôi trên các kênh chat và phải chờ BTC trả lời lặp lại mất 20–45 phút. Quy trình mới bắt đầu bằng việc BTC chuẩn hóa một file nguồn duy nhất, sau đó hệ thống dùng Rule chuyển câu hỏi khiếu nại cho Trọng tài và dùng AI trích xuất câu trả lời kèm nguồn cho câu hỏi tra cứu. Mục tiêu là giảm thời gian chờ xuống dưới 1 phút, giảm hơn 80% câu hỏi lặp lại, đồng thời đảm bảo 100% câu trả lời có dẫn nguồn và 0% dùng tin cũ. Ranh giới là AI chỉ trích xuất từ tài liệu mới nhất của BTC, không tự xử lý khiếu nại hay đổi người và chuyển Trọng tài nếu câu hỏi ngoài tài liệu. Nhóm chọn mức Workflow để hiểu được câu hỏi tự nhiên của tuyển thủ mà vẫn kiểm soát chặt chẽ nguồn dữ liệu hơn Agent. Quyết định là Go phạm vi nhỏ để pilot ở vòng bảng, kèm ngưỡng dừng nếu báo sai lịch hoặc luật dù chỉ một lần thì sẽ dừng bot ngay và quay về trang FAQ tĩnh.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Tài liệu hướng dẫn Lab Day 02: [docs/01-worksheet.md](../../docs/01-worksheet.md) và [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
+- Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you* (2013).
+- Google People + AI Research (PAIR), *People + AI Guidebook*: https://pair.withgoogle.com/guidebook/.

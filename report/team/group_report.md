@@ -18,57 +18,68 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Bảo | Khi dự giải XAY MAJOR 2026, tôi muốn tra cứu nhanh lịch & thể lệ cập nhật, để không trễ giờ hay phạm quy. | Tuyển thủ giải XAY MAJOR; Trọng tài XayGame | Lội tin nhắn Zalo/Discord/Fanpage và chờ BTC giải đáp thủ công (20–45'). | Tuyển thủ thực sự thiếu thông tin hay thông tin bị trôi khó tìm? Trang Notion FAQ tập trung có đủ không? (Tân) |
+| 2 | Bảo | Khi tổ chức sự kiện, tôi muốn nắm rõ kỹ năng & lịch rảnh của thành viên, để giao việc đúng người, tránh quá tải. | Ban Chủ nhiệm, Trưởng ban CLB XayGame | Rà soát thủ công kỹ năng và hỏi lịch rảnh từng người (mất 2–3 ngày). | Lịch rảnh sinh viên đổi liên tục, làm sao dữ liệu luôn đúng mà không tốn công cập nhật? (Hiệp) |
+| 3 | Bảo | Khi thành viên nhận việc, tôi muốn theo dõi tiến độ & đóng góp công bằng, để kịp thời hỗ trợ và ghi nhận. | Ban Chủ nhiệm; thành viên thực hiện | Đối soát nguyên nhân chậm và họp đánh giá thủ công (mất nhiều buổi). | Mỗi ban tính chất việc rất khác nhau, dùng chung 1 khung đánh giá có bị bất công? (Đức) |
+| 4 | Tân | Khi tìm phòng trọ mới, tôi muốn lọc tin thật quanh trường theo ngân sách, để hẹn xem phòng thật, tránh tin cò ảo. | Sinh viên đi thuê trọ | Nhắn tin hỏi chủ bài và chờ phản hồi để xác nhận tin thật (30'/buổi, >60% tin ảo). | Group Facebook chặn scraping, lấy bài thế nào? Cò mồi viết như người thật thì AI có lọc nhầm? (Bảo) |
+| 5 | Tân | Khi cuối ngày chuẩn bị ngủ, tôi muốn gom chi tiêu lẻ từ 3 app ví/ngân hàng, để kiểm soát ngân sách không bị thâm hụt. | Sinh viên sống tự lập | Nhập tay từng khoản và nhớ lại mục đích chi tiêu (12'/tối, dễ bỏ dở). | Vấn đề bảo mật tài chính; người dùng có sẵn sàng cho app ngoài đọc biến động số dư? (Đức) |
+| 6 | Tân | Khi nộp bài lab hàng tuần, tôi muốn soát đủ checklist quy cách nộp, để không bị trừ điểm oan vì lỗi hình thức. | Học viên thực hành AI | Dò thủ công từng tên file, xóa file rác (.DS_Store, cache) (10'/lần). | Bài này thuần rule, chỉ cần script bash/python regex là xong, có cần AI không? (Hiệp) |
+| 7 | Đức | Khi sinh bài học từ tài liệu, tôi muốn biết dữ liệu có khớp yêu cầu môn/lớp không, để tránh tạo nội dung sai lệch. | Người soạn bài học trong hệ thống | Chưa phát hiện lệch dữ liệu trước khi sinh (vào Văn 8 yêu cầu Toán 9 vẫn sinh). | Chặn bằng rule chọn môn/lớp ở input đã đủ chưa, hay bắt buộc AI phải đọc hiểu ngữ nghĩa? (Tân) |
+| 8 | Đức | Khi tích hợp code nhóm, tôi muốn thống nhất cách kết nối chức năng, để giảm xung đột và tránh sửa lại nhiều lần. | Thành viên đội dự án phần mềm | Tìm nguyên nhân xung đột và họp chốt yêu cầu (55–65'/lần). | Xung đột thường do chia module không rõ từ đầu, AI tóm tắt diff có giải quyết được gốc rễ? (Bảo) |
+| 9 | Đức | Khi nộp bài tại trường, tôi muốn kiểm tra đủ các bước bắt buộc (cả link form xác nhận), để hoàn thành đúng hạn. | Học viên lab VinUni | Chưa đọc hết hướng dẫn PDF nên push code xong tưởng xong, suýt trễ hạn form. | Mới gặp 1 lần ở Day 01, một checklist ghi chú cá nhân (No AI) đã đủ triệt để chưa? (Hiệp) |
+| 10 | Hiệp | Khi nhận đề lab dài nhiều file, tôi muốn nắm ngay tổng quan và việc cần làm, để bắt tay làm ngay, không mất công đọc mò. | Sinh viên nhận lab mới | Đọc từng file và xâu chuỗi yêu cầu nằm rải rác (20–25'/lần). | Dùng AI tóm tắt nhanh có nguy cơ bỏ sót lưu ý nhỏ/format ẩn dẫn đến mất điểm không? (Tân) |
+| 11 | Hiệp | Khi có nhiều bài học và task mới mỗi ngày, tôi muốn biết thứ tự ưu tiên việc cần làm, để kịp deadline không bị quá tải. | Sinh viên tự quản lý việc học | Đắn đo chọn thứ tự học/làm ngẫu hứng đầu ngày (20–30', dễ phân tâm). | Thứ tự ưu tiên thay đổi theo cảm xúc và sự cố trong ngày, AI có đủ ngữ cảnh để xếp thay? (Đức) |
+| 12 | Hiệp | Khi nhóm đã chia việc và thông báo lịch, tôi muốn thành viên tự nắm phần việc, để không hỏi lại làm ngắt quãng người khác. | Người điều phối nhóm học tập | Bị ngắt quãng việc đang làm để tra lại thông báo cũ trả lời tin nhắn (15–30'/đợt). | Nằm ở ý thức thành viên; nếu đã lười đọc tin nhắn ghim thì liệu họ có chịu tra cứu bot? (Bảo) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| **A — Tra cứu & tổng hợp thông tin phân tán** | **#1** (Bảo: Thông tin giải XAY MAJOR)<br>**#4** (Tân: Lọc tin phòng trọ)<br>**#10** (Hiệp: Đọc hiểu đề lab dài nhiều file) | Thông tin nằm rải rác ở nhiều nguồn/kênh khác nhau (tin nhắn mạng xã hội, kênh chat, nhiều file tài liệu); người dùng mất nhiều thời gian đọc mò, sàng lọc và xác thực thông tin nào là mới nhất và đúng nhất. |
+| **B — Phối hợp, giao tiếp & vận hành nhóm** | **#2** (Bảo: Phân công việc CLB)<br>**#3** (Bảo: Theo dõi đánh giá việc CLB)<br>**#8** (Đức: Xung đột code khi tích hợp)<br>**#12** (Hiệp: Thành viên hỏi lại việc đã thông báo) | Quy trình làm việc giữa nhiều người; thiếu sự thống nhất về dữ liệu trạng thái, tiêu chí và ranh giới công việc, dẫn đến phải trao đổi qua lại lòng vòng, làm gián đoạn người khác và chậm tiến độ chung. |
+| **C — Kiểm tra quy chuẩn & đối soát cá nhân** | **#5** (Tân: Gom chi tiêu lẻ từ 3 app)<br>**#6** (Tân: Checklist nộp bài lab)<br>**#7** (Đức: Lệch dữ liệu sinh bài học)<br>**#9** (Đức: Bỏ sót bước nộp form)<br>**#11** (Hiệp: Sắp xếp thứ tự ưu tiên việc) | Kiểm tra đầu vào/sản phẩm có tuân thủ đúng quy tắc, định dạng bắt buộc hay không trước khi nộp/xử lý tiếp, hoặc đối soát các mảnh dữ liệu/đầu việc hàng ngày để tránh sai sót. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian tuyển thủ tìm đúng thông tin và giảm câu hỏi lặp lại gửi về BTC giải XAY MAJOR 2026
+├── Opportunity A: Thông tin giải đấu phân tán ở nhiều kênh (Fanpage, Zalo, Discord), dễ bị trôi và khó tìm lại
+├── Opportunity B: Tuyển thủ không biết thông báo đang đọc có phải là bản cập nhật mới nhất hay không
+└── Opportunity C: BTC mất nhiều thời gian trực tin nhắn trả lời lặp lại các câu hỏi đã có trong điều lệ
+     ✗ "Chatbot AI tự trả lời mọi câu hỏi"  ← solution, gạch bỏ
+     ✗ "App di động riêng cho giải đấu"     ← solution, gạch bỏ
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- **"Chatbot AI tự trả lời mọi câu hỏi"**: Đây là công cụ/giải pháp cụ thể, chưa xét đến việc liệu chỉ cần trang FAQ tập trung là đã đủ hay chưa.
+- **"App di động riêng cho giải đấu"**: Đây là tính năng sản phẩm, không phải nỗi đau của người dùng.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| **#1 — Tiếp cận thông tin giải đấu XAY MAJOR** | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 34 |
+| #10 — Đọc hiểu & tổng hợp đề lab nhiều file | 5 | 5 | 4 | 4 | 4 | 3 | 4 | 29 |
+| #4 — Lọc tin phòng trọ tránh tin ảo | 4 | 4 | 4 | 4 | 3 | 4 | 4 | 27 |
 
 **Candidate được chọn:**
+**#1 — Tuyển thủ khó tiếp cận thông tin chính xác, đầy đủ và cập nhật của giải đấu Esports (XAY MAJOR 2026).**
 
 **Vì sao chọn:**
+- **Hiểu rõ domain & có sẵn dữ liệu:** Thành viên nhóm (Bảo) trực tiếp thuộc BTC CLB XayGame, nắm rõ quy trình tổ chức giải và có thể tiếp cận ngay tuyển thủ/trọng tài để phỏng vấn, khảo sát.
+- **So sánh tốt 4 mức can thiệp:** Dễ dàng đặt lên bàn cân giữa trang FAQ tập trung (No AI), bot từ khóa (Rule) và trợ lý trích xuất tài liệu chính thức có dẫn nguồn (Workflow).
 
 **Vì sao loại các candidate còn lại:**
+- **#10 (Đọc hiểu đề lab nhiều file):** Cấu trúc đề bài mỗi môn rất khác nhau; chỉ cần dùng mẫu note cố định (No AI) là đã giải quyết được phần lớn mà chưa cần quy trình phức tạp.
+- **#4 (Lọc tin phòng trọ):** Dữ liệu các hội nhóm Facebook bị chặn cào (scraping) và biến động liên tục, vượt quá phạm vi kiểm chứng trong một buổi lab.
 
 **Xử lý bất đồng (nếu có):**
+- **Tân & Hiệp** cho rằng tuyển thủ chỉ "lười đọc", chỉ cần trang FAQ tĩnh (No AI) là đủ.
+- **Đức** muốn chọn bài #7 và lo ngại bài #1 dễ bị AI trả lời nhầm lịch/thể lệ cũ đã hết hiệu lực.
+- **Hướng thống nhất:** Chọn #1 vì dễ khảo sát người dùng thật trong buổi lab hơn #7; đồng thời đưa cả hai lo ngại về "FAQ tĩnh có đủ không" và "rủi ro dùng thông tin cũ" vào **Assumption Map (CP4)** và **Boundary (CP5)** để kiểm chứng.
 
 ---
 

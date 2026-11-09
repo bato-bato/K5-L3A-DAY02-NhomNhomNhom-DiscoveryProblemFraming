@@ -55,3 +55,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 - Hiểu được sự khác biệt giữa "nghĩ ra giải pháp trước" (solution-first) và "bóc tách quy trình thực tế để tìm điểm nghẽn".
 - Nắm vững cách phân tầng công nghệ: không phải bài toán nào cũng cần nhảy ngay vào Agent hay AI phức tạp, mà nên tận dụng tối đa No AI và Rule để tối ưu chi phí và độ tin cậy trước khi tích hợp AI Workflow.
+
+### DuongMinhTan-2A202603464
+
+**Phần việc phụ trách:**
+Tổng hợp nội dung CP3 (Hội tụ nhóm: bảng Pitch, gom Cluster, cây OST rút gọn, bảng chấm điểm shortlist), đồng thời tham gia hỗ trợ vẽ quy trình trước/sau ở CP5, phân tích mức can thiệp AI và thiết lập ngưỡng dừng an toàn ở CP6.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+Mình đã trình bày 3 Problem Cards cá nhân và đặt câu hỏi phản biện cho các thành viên (đặc biệt là câu hỏi chất vấn tính cần thiết của AI so với trang FAQ tĩnh cho bài #1). Cùng nhóm gom 12 bài toán thành 3 cụm cluster, dựng cây OST loại bỏ các giải pháp trá hình và đồng thuận chọn bài giải đấu XAY MAJOR. Ở các bước sau, mình tham gia phác thảo sơ đồ quy trình Mermaid trước/sau, xác lập ranh giới Boundary (chuyển ca khiếu nại cho Trọng tài) và thống nhất ngưỡng dừng cho đợt pilot.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+Mục 2 (2.1 Pitch, 2.2 Cluster, 2.3 Cây OST, 2.4 Chấm điểm shortlist) và các đóng góp trong Mục 4, 6, 8 của `report/team/group_report.md`; Báo cáo cá nhân CP1, CP2, CP7 trong file `report/individual/2A202603464_DuongMinhTan.md`.
+
+**Điều mình học được từ phần nhóm:**
+Mình học được cách tư duy bóc tách rõ ràng giữa nỗi đau thực tế với giải pháp khi xây dựng cây OST. Quan trọng nhất, mình nhận ra điều kiện tiên quyết của bài toán thông tin là ban tổ chức phải chuẩn hóa được một nguồn dữ liệu gốc duy nhất (Single Source of Truth), vì nếu dữ liệu gốc phân tán và không đồng bộ thì công cụ AI dù hiện đại đến đâu cũng sẽ trả lời nhầm thông tin cũ gây thiệt hại cho người dùng.
