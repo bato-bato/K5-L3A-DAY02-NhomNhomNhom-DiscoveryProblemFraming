@@ -25,9 +25,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 3 | Lặp lại | Khi bắt đầu mỗi tuần mới, tôi muốn chuyển toàn bộ lịch trình của tuần vào Calendar thành thời khóa biểu, để theo dõi trong tuần và nhận thông báo trước khi đến lịch, tránh trùng lịch hay quên việc | Bản thân tôi | Đều đặn 1 lần/tuần vào đầu tuần (cộng thêm các lần cập nhật khi đổi lịch đột xuất); mỗi lần mở xem lịch trình rồi tạo từng sự kiện tay vào Calendar mất khoảng 15–20 phút |
 | 4 | Cần đọc, tổng hợp nhiều thông tin | Khi mỗi ngày đều có thêm kiến thức mới, bài tập, bài lab đi kèm với các project cá nhân và dự án nhóm cùng lúc, tôi muốn biết cách sắp xếp thứ tự ưu tiên học và làm việc gì trước sao cho hợp lý, để vừa nắm vững kiến thức vừa kịp các mốc deadline mà không bị quá tải | Bản thân tôi | Xảy ra hàng ngày/hàng tuần khi phải cân bằng 3–4 luồng việc (kiến thức mới trên lớp, bài lab mỗi ngày, đồ án/project nhóm và cá nhân); thường mất 20–30 phút đắn đo mỗi tối hoặc đầu ngày mà vẫn hay bị dồn việc sát hạn hoặc phân bổ lệch thời gian |
 | 5 | Pain từ người khác | Khi làm việc trong nhóm học tập đã phân chia công việc và thông báo lịch họp, daily standup rõ ràng trên group, tôi muốn các thành viên tự kiểm tra và nắm đúng phần việc cũng như lịch trình của mình mà không bỏ lỡ rồi hỏi đi hỏi lại, để không làm mất thời gian giải thích lại và tránh gây khó chịu, ức chế cho các thành viên khác | Các thành viên khác trong nhóm | Thỉnh thoảng xảy ra nếu làm bài nhóm và trong nhóm có thành viên như vậy (đi làm việc cá nhân trước, không check thông báo hay lịch daily standup trong group); mỗi đợt lại hỏi đi hỏi lại nhóm trưởng và thành viên trong nhóm "việc cần làm là gì, làm thế nào" 3–5 lần, mất 15–30 phút giải thích lại |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -145,16 +142,16 @@ HIỆN TẠI — Mất khoảng 30–40 phút/đợt xử lý + gây ức chế 
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| **Pitch Problem Card** | Trình bày 3 Problem Cards cá nhân, trong đó tập trung pitch Card #1 (Đọc hiểu & tổng hợp yêu cầu khi nhận bài tập/assignment/lab dài nhiều file). | Card #1 được nhóm đưa vào danh sách cân nhắc (shortlist) và giúp nhóm nhận diện rõ nhu cầu xử lý thông tin dạng văn bản dài. |
+| **Phản biện bài của bạn khác** | Đặt câu hỏi phản biện cho Card #1 của Tống Thiên Bảo (Giải đấu Esports XayGame): *"Thời gian các bước và Success Metric hiện đang ghi 'chưa đo / chưa xác định', từ giải gần nhất Bảo ước lượng mất bao lâu? Và nếu dùng chatbot RAG thì khi BTC thay đổi thể lệ/lịch thi đấu sẽ cập nhật vào RAG như thế nào để không bị trả lời nhầm luật cũ (ví dụ dùng mã băm hash/metadata active)? Có lưu cache cho câu hỏi trùng lặp không?"* | Nhóm nhận ra lỗ hổng thiếu số liệu định lượng (tránh bị trừ điểm rubric), đồng thời thống nhất đưa cơ chế kiểm tra hash và lưu cache FAQ vào quy trình tương lai. |
+| **Nhận phản biện** | Nhận câu hỏi từ nhóm: *"Việc đọc hiểu đề bài mang tính cá nhân cao và hiện tại mọi người đã có thể tự copy-paste vào các công cụ chat AI có sẵn (ChatGPT/Claude), liệu có cần thiết kế thành một quy trình sản phẩm riêng cho nhóm không?"* | Tôi nhận thấy bài toán của mình phạm vi cá nhân hẹp và công cụ sẵn có đã đáp ứng phần lớn, nên tôi đồng thuận không chọn bài của mình mà chuyển sang ủng hộ đề tài giải đấu Esports của Bảo. |
+| **Gom cluster / cây OST** | Cùng nhóm rà soát 12 candidate problems của 4 thành viên, thảo luận gom thành 3 cụm pattern chung. | Xác định được 3 Cluster chính (Truy cập & tra cứu thông tin; Điều phối & phân công nhân sự; Kiểm soát chất lượng & đối soát dữ liệu) và chốt Outcome ở gốc cây OST. |
+| **Chọn candidate problem** | Cùng nhóm chấm điểm shortlist và lập luận chọn Card #1 của Tống Thiên Bảo. | Chốt được đề tài chung của nhóm vì có bối cảnh thực tế tại CLB XayGame, có đối tượng tuyển thủ thật để kiểm chứng, có không gian so sánh rõ giữa No AI, Rule và Workflow; đồng thời đây là đề tài có điểm mới lạ, độc đáo và hiện tại ít người khai thác theo hướng này. |
+| **Kiểm chứng / research** | Tham gia thảo luận các giả định trong Assumption Map (đặc biệt là giả định tuyển thủ ngại đọc bài ghim dài mà có thói quen hỏi thẳng BTC) và hỗ trợ tìm kiếm giải pháp tương tự. | Nhóm xác định đúng các giả định rủi ro cao cần kiểm chứng với tuyển thủ và bổ sung các mô hình quản lý giải đấu có sẵn vào bảng Research. |
+| **Quy trình nhóm** | Đề xuất giải pháp kỹ thuật cho quy trình tương lai (CP5): phân tầng xử lý gồm Menu FAQ cố định (Rule) $\rightarrow$ Lưu Cache câu hỏi lặp lại gắn với mã băm hash của điều lệ $\rightarrow$ RAG tra cứu điều lệ mới nhất (Workflow) $\rightarrow$ Chuyển tiếp BTC duyệt (Human-in-the-loop). | Quy trình tương lai của nhóm được thiết kế chặt chẽ, tối ưu tốc độ phản hồi và chi phí vận hành. |
+| **Problem Statement** | Tham gia hoàn thiện Problem Statement v0 và v1, đặc biệt ở phần Boundary (ranh giới) và Success Metric. | Đảm bảo ranh giới rõ ràng: AI chỉ cung cấp thông tin điều lệ, tuyệt đối không tự ý xử thua hay giải quyết khiếu nại thay trọng tài/BTC. |
+| **Mức can thiệp AI** | Tham gia phân tích ma trận độ mơ hồ × độ phức tạp và thảo luận vì sao chọn Workflow thay vì Agent. | Thống nhất chọn mức Workflow kết hợp Rule, tránh việc phức tạp hóa vấn đề bằng Agent tự chủ không cần thiết. |
+| **Quyết định** | Cùng nhóm đánh giá 4 rủi ro (Value, Usability, Feasibility, Viability) và thảo luận về điều kiện pilot. | Thống nhất quyết định Go với phạm vi pilot thử nghiệm ở 1 giải đấu quy mô nhỏ tiếp theo của CLB XayGame kèm ngưỡng dừng cụ thể. |
 
 ---
 
@@ -162,12 +159,9 @@ HIỆN TẠI — Mất khoảng 30–40 phút/đợt xử lý + gây ức chế 
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| **CP1 Scan** | Gợi mở thêm góc nhìn theo 4 lăng kính và hỗ trợ chuẩn hóa câu chữ theo cấu trúc Job Story. | Giúp diễn đạt tình huống và động cơ rõ ràng, đúng form *"Khi... tôi muốn... để..."*. | Đưa ra một số gợi ý mang tính giải pháp trá hình hoặc quá rộng viển vông (ví dụ: *"trợ lý AI tự động học và làm thay bài tập"*). | Loại bỏ các ý tưởng viển vông; tự viết 5 vấn đề từ trải nghiệm thật; tự rà soát và đổi ý #4 (từ ôn thi sang sắp xếp thứ tự ưu tiên việc làm tay mỗi ngày). |
+| **CP2 Problem Card** | Đóng vai PM hoài nghi để phản biện tìm lỗ hổng trong 3 Problem Cards. | Chỉ ra điểm yếu xác đáng ở Card #1: metric ban đầu chỉ đo thời gian đọc nhanh mà chưa đo chất lượng (dễ đọc lướt sót ý); nhắc nhở cân nhắc phương án No AI/Rule cho Card #2 và #3. | Ban đầu có xu hướng gợi ý giải pháp Agent tự động hóa quá đà ở Card #1 (tự làm bài nộp thay người học); chưa phân tích kỹ việc Card #2 và #3 hoàn toàn có thể giải quyết tốt bằng quy tắc thủ công. | Giữ ranh giới (Boundary) rõ ràng: AI chỉ dừng ở mức Workflow hỗ trợ tóm tắt yêu cầu đề bài, người học vẫn phải tự kiểm tra và làm bài; đổi Cảm nhận nhanh của Card #2 và #3 sang ưu tiên No AI / Rule (dùng checklist và quy định nhóm). |
+| **CP4 Research & CP5 Quy trình** | Tra cứu các giải pháp tổ chức giải đấu tương tự và tham khảo cơ chế kỹ thuật cập nhật dữ liệu RAG. | Gợi ý nhanh các nền tảng giải đấu phổ biến (Challengermode, Start.gg) và mô hình RAG có caching. | Đưa ra một số giải pháp kỹ thuật quá nặng nề (đòi hỏi hệ thống phức tạp, tốn kém chi phí) không phù hợp với quy mô CLB sinh viên. | Đơn giản hóa kiến trúc: đề xuất cơ chế kiểm tra mã băm hash/metadata của file điều lệ chính thức kết hợp Cache câu hỏi lặp lại để giải quyết bài toán với chi phí thấp nhất. |
 
 ---
 
@@ -176,18 +170,25 @@ HIỆN TẠI — Mất khoảng 30–40 phút/đợt xử lý + gây ức chế 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Sau khi nghe các problems của các bạn khác, tôi học được rất nhiều về sự đa dạng trong cách tư duy và tiếp cận đề tài khi cùng nhận một yêu cầu bài lab. Bản thân tôi ban đầu chưa hiểu hết dụng ý của đề bài nên việc suy nghĩ ý tưởng bị bí và không gian đề tài khá hẹp: tôi chỉ nhìn thấy những vấn đề phát sinh ngay trước mắt trong sinh hoạt học tập cá nhân (như các vấn đề #1 đến #5 tôi đã đề xuất) chứ chưa mở rộng sang các bối cảnh vận hành cộng đồng có tính thực tế và tiềm năng triển khai cao như đề tài giải đấu Esports của bạn Bảo hay tìm trọ của bạn Tân.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, ngay khi vừa chốt đề tài giải đấu Esports của bạn Bảo, cả nhóm đã có lúc bị cuốn ngay vào giải pháp khi nghĩ tới việc "phải làm một con chatbot AI trả lời tự động trên Fanpage/Discord". Nhóm chỉ nhận ra mình đang bị solution-first khi bước vào vẽ quy trình hiện tại ở CP5: sau khi bóc tách từng bước, nhóm thấy rằng phần lớn câu hỏi của tuyển thủ chỉ xoay quanh lịch đấu và link tài liệu (hoàn toàn giải quyết được bằng Menu FAQ cố định - Rule), còn AI chỉ thực sự cần thiết ở bước trích xuất các điều khoản tình huống phức tạp trong file điều lệ. Nhóm đã xử lý bằng cách phân tầng giải pháp, ưu tiên Rule trước rồi mới đến AI Workflow.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Ban đầu khi pitch bài của mình, tôi vẫn muốn bảo vệ Card #1 (đọc hiểu đề bài dài). Tuy nhiên, sau khi nghe các bạn trong nhóm phản biện rằng việc đọc đề mang tính cá nhân và các công cụ chat AI có sẵn đã làm rất tốt, đồng thời được bạn Bảo trình bày và giải đáp kỹ về bối cảnh thực tế tại CLB XayGame, tôi nhận thấy đề tài của Bảo vừa có tính mới lạ, ít người khai thác, vừa có đối tượng người dùng thật để kiểm chứng. Do đó, tôi đã chủ động đổi ý và bỏ phiếu đồng thuận ủng hộ đề tài của bạn Bảo làm bài toán chung của nhóm.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất là vấn đề của tuyển thủ thực chất không phải do Ban tổ chức thiếu thông tin, mà do thói quen người dùng: BTC đã soạn bài ghim thể lệ rất đầy đủ nhưng phần lớn tuyển thủ rất ngại đọc các văn bản dài, cứ có thắc mắc là nhắn hỏi thẳng BTC để được trả lời nhanh. Ngoài ra, khi research giải pháp, tôi cũng bất ngờ khi thấy thế giới đã có những nền tảng quản lý giải đấu lớn như Challengermode hay Start.gg, nhưng chúng lại quá phức tạp và cồng kềnh, không phù hợp với văn hóa tổ chức giải đấu linh hoạt của sinh viên tại Việt Nam.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất với tôi là việc đặt mình vào đúng góc độ của người trong cuộc để nhìn ra bản chất vấn đề thay vì chỉ nghĩ giải pháp trong đầu. Như tôi đã chia sẻ ở 6.1, bản thân tôi còn thiếu kinh nghiệm thực tế về môi trường làm việc ngoài đời nên tư duy ý tưởng còn hạn chế. Thêm vào đó, khi trực tiếp viết Problem Statement v0 ở CP5, tôi thấy việc bóc tách số liệu đo lường cụ thể (baseline bao nhiêu phút, giảm xuống bao nhiêu) và xác định ranh giới (Boundary) cấm AI làm gì là những khâu rất khó, đòi hỏi phải suy nghĩ rất chặt chẽ để AI không can thiệp trái thẩm quyền của trọng tài.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại từ đầu, tôi sẽ cố gắng mở rộng góc nhìn cá nhân sớm hơn từ khâu scan ở CP1 để tìm kiếm các bài toán có tính ứng dụng xã hội cao hơn. Đồng thời, tôi sẽ phản biện nhóm quyết liệt hơn ở khâu thu thập số liệu ngay từ CP3: yêu cầu nhóm phải khảo sát và định lượng cụ thể số phút chờ đợi cũng như số câu hỏi lặp lại thực tế từ các giải trước của XayGame, thay vì để tình trạng "chưa đo / chưa xác định" kéo dài làm nhóm lúng túng khi xây dựng Success Metric ở CP5.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Bài toán của nhóm xuất phát từ việc tuyển thủ tham gia giải đấu Esports tại CLB XayGame gặp khó khăn trong việc tiếp cận thông tin thể lệ và lịch thi đấu chính xác do thông báo bị phân tán nhiều nơi. Trong quy trình hiện tại, điểm nghẽn lớn nhất là khâu tuyển thủ phải nhắn tin hỏi BTC và chờ đợi đối chiếu phản hồi mất từ 15–30 phút, gây quá tải cho ban tổ chức sát giờ thi đấu. Thành công của giải pháp được đo lường cụ thể bằng việc rút ngắn thời gian tìm thông tin từ 40–55 phút xuống dưới 2 phút/lần, đồng thời giảm ít nhất 70% số lượng câu hỏi lặp lại gửi về BTC trong mỗi giải đấu. Ranh giới an toàn (Boundary) được quy định chặt chẽ: AI chỉ được trích xuất thông tin từ Điều lệ chính thức mới nhất, tuyệt đối không được tự ý xử thua, thay đổi kết quả hay xử lý khiếu nại thay trọng tài (luôn có sự can thiệp của con người - HITL). Nhóm thống nhất lựa chọn mức can thiệp là Workflow (kết hợp Rule lọc FAQ/cache và AI trích xuất điều lệ), không dùng Agent vì quy trình tra cứu đã được định sẵn. Quyết định cuối cùng của nhóm là Go với phạm vi pilot thử nghiệm tại một giải đấu quy mô nhỏ tiếp theo của CLB XayGame kèm ngưỡng dừng đo lường rõ ràng.
 
 ---
 
