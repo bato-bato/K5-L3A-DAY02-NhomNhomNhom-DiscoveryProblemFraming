@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Tống Thiên Bảo | 2A202603461 | Trưởng nhóm, domain owner, phụ trách CP3 & CP4 | bato-bato |
 | 2 | Nguyễn Quang Hiệp | 2A202603509 | Phụ trách CP5 (Quy trình Before/After & Problem Statement v0) | hiepquangnguyen |
-| 3 | | | | |
-| 4 | | | | |
+| 3 | Dương Minh Tân | 2A202603464 | Phụ trách CP3 (Cluster, cây OST, bảng chấm điểm) | mihtan05 |
+| 4 | Lưu Văn Việt Đức | 2A202603445 | Phụ trách CP4 (Research) | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
+| CP3 — Hội tụ nhóm | Dương Minh Tân | Nhóm | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Lưu Văn Việt Đức | Nhóm | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Lưu Văn Việt Đức | Nhóm | Bảng research có link |
 | CP5 — Quy trình trước/sau | Nguyễn Quang Hiệp | Nhóm | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Nguyễn Quang Hiệp | Nhóm | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | Tống Thiên Bảo | Nhóm | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Tống Thiên Bảo | Nhóm | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
