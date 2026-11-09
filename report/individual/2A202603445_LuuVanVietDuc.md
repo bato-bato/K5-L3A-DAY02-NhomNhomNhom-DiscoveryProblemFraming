@@ -129,16 +129,16 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Chuẩn bị 3 Problem Cards cá nhân về kiểm tra dữ liệu–yêu cầu sinh tài liệu, xung đột khi tích hợp code và bỏ sót bước nộp bài. | Có các candidate cá nhân để đưa ra thảo luận; phần trình bày trực tiếp chưa ghi nhận chi tiết. |
+| Phản biện bài của bạn khác | Chưa ghi nhận câu hỏi phản biện trực tiếp cụ thể. | Chưa có kết quả để ghi nhận. |
+| Nhận phản biện | Đối chiếu lại cách hiểu actor: ban đầu tôi nghĩ là người ngoài xem giải, sau đó xác định theo Card của Bảo là tuyển thủ. | Điều chỉnh phạm vi CP4 về lịch thi đấu, thể lệ, địa điểm và check-in. |
+| Gom cluster / cây OST | Không trực tiếp phụ trách tổng hợp cluster và cây OST. | Tham khảo kết quả hội tụ chung để thực hiện CP4. |
+| Chọn candidate problem | Thực hiện CP4 theo Card #1 của Bảo được nhóm chọn. | Giữ nội dung research thống nhất với đề tài thông tin giải đấu XayGame. |
+| Kiểm chứng / research | Tổng hợp Assumption Map, rà soát nguồn công khai về XayGame và tham khảo Notion Sites, Discord Forum, start.gg. Chuẩn bị khung kiểm chứng; chưa có phỏng vấn thực tế được xác nhận. | Bổ sung mục 3 của báo cáo nhóm; phân biệt thông tin có nguồn với các tình huống minh họa cần kiểm chứng. |
+| Quy trình nhóm | Cung cấp các bước và giả định cần kiểm tra trong CP4: tìm thông báo, đối chiếu cập nhật và hỏi BTC. | Làm đầu vào tham khảo cho thành viên phụ trách CP5; chưa xác nhận được bottleneck bằng số đo. |
+| Problem Statement | Không trực tiếp phụ trách viết Problem Statement của nhóm. | Qua CP4, ghi rõ các giới hạn bằng chứng để tránh kết luận vượt quá dữ liệu hiện có. |
+| Mức can thiệp AI | Research các phương án tổ chức và tra cứu thông tin có sẵn, gồm cả phương án không dùng AI. | Cung cấp cơ sở tham khảo khi nhóm so sánh No AI, Rule và Workflow. |
+| Quyết định | Không trực tiếp phụ trách chốt quyết định cuối. | Cung cấp kết quả research và những điểm chưa chắc để nhóm cân nhắc. |
 
 ---
 
@@ -185,8 +185,7 @@ Nếu làm lại, tôi sẽ lên kế hoạch cụ thể theo từng bước, x�
 
 ### 6.7. Hiểu bài
 
-Người dùng chính của đề tài là các tuyển thủ tham gia giải đấu do XayGame tổ chức. Vấn đề nhóm đang xem xét là tuyển thủ đôi khi gặp khó khăn khi tiếp nhận và xác nhận thông tin từ BTC qua fanpage hoặc các kênh thông báo. Quy trình hiện tại gồm đọc thông báo, tìm cập nhật, đối chiếu và hỏi BTC khi chưa rõ. Với phần thông tin tôi đã nắm, bottleneck và các chỉ số đo vẫn cần được xác minh thêm. Nếu sử dụng AI, hệ thống chỉ được trả lời trong phạm vi dữ liệu giải đấu do BTC cung cấp và chuyển câu hỏi thiếu căn cứ cho người phụ trách. Hướng can thiệp có thể cân nhắc là Workflow, trong đó AI hỗ trợ tra cứu theo các bước xác định sẵn, còn BTC kiểm soát nguồn và các quyết định quan trọng. Tôi cần đối chiếu bản CP6 cuối cùng để xác nhận mức can thiệp và quyết định chính thức của nhóm.
-
+Người dùng chính của đề tài là các tuyển thủ tham gia giải đấu do XayGame tổ chức. Vấn đề nhóm đang xem xét là tuyển thủ đôi khi gặp khó khăn khi tiếp nhận và xác nhận thông tin từ BTC qua fanpage hoặc các kênh thông báo. Quy trình hiện tại gồm đọc thông báo, tìm cập nhật, đối chiếu và hỏi BTC khi chưa rõ. Bottleneck và các chỉ số đo vẫn cần được xác minh thêm. Nếu sử dụng AI, hệ thống chỉ được trả lời trong phạm vi dữ liệu giải đấu do BTC cung cấp và chuyển câu hỏi thiếu căn cứ cho người phụ trách. Hướng can thiệp có thể cân nhắc là Workflow, trong đó AI hỗ trợ tra cứu theo các bước xác định sẵn, còn BTC kiểm soát nguồn và các quyết định quan trọng. 
 ## 7. Tài liệu tham khảo
 
 1. VNGGames. (2025, 18 tháng 9). *[ĐTCL - VĐQG] Tổng hợp giải đấu Vô địch Quốc gia từ ngày 18/09–28/09/2025*.  
