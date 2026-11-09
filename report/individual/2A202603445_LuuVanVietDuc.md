@@ -144,37 +144,59 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 ## 5. Dùng AI
 
+## 5. Dùng AI
+
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Hỗ trợ diễn đạt và rút gọn các vấn đề từ trải nghiệm tôi cung cấp. | Giúp làm rõ Job Story và chỉ ra thông tin còn thiếu. | Có giả định chưa đúng về việc bỏ sót góp ý hoặc sửa trùng sau review. | Tôi giải thích nhóm có ghi hình review và bổ sung tình huống thực tế, số lần sửa, thời gian ước lượng. |
+| CP2 Problem Card | Hỗ trợ sắp xếp nội dung theo mẫu và phản biện các card. | Giúp phân biệt actor, bottleneck, impact và mục tiêu thử nghiệm. | Ban đầu mô tả lỗi sinh tài liệu chưa đúng trọng tâm. | Tôi làm rõ tình huống dữ liệu Ngữ văn 8 nhưng yêu cầu Toán 9; vấn đề là chưa kiểm tra sự khớp giữa dữ liệu và yêu cầu. |
+| CP4 Research | Hỗ trợ tìm nguồn, tổng hợp giải pháp có sẵn và xây dựng khung kiểm chứng. | Gợi ý các hướng tham khảo từ Notion Sites, Discord Forum, start.gg và nguồn VNGGames về XayGame. | Nguồn công khai chỉ xác nhận bối cảnh, chưa chứng minh khó khăn của tuyển thủ; các tình huống phỏng vấn AI tạo chỉ là minh họa. | Tôi đối chiếu actor với Card của nhóm, giới hạn kết luận theo bằng chứng và giữ rõ trạng thái dữ liệu chưa xác minh. |
+| CP5 Quy trình | Không trực tiếp dùng AI cho phần này trong phạm vi công việc cá nhân. | — | — | Phần quy trình do thành viên được phân công phụ trách. |
+| CP5–6 Problem Statement | Không trực tiếp dùng AI để thực hiện phần này. | — | — | Tôi phụ trách CP4 và tham khảo kết quả chung để hiểu bài nhóm. |
+| CP6 Mức can thiệp / quyết định | Không trực tiếp dùng AI để chốt quyết định của nhóm. | — | — | Mức can thiệp và quyết định cuối cần đối chiếu với bản nhóm đã thống nhất. |
+| CP7 Reflection | Hỗ trợ gợi ý câu hỏi, biên tập và định dạng từ các ý tôi cung cấp. | Giúp rà soát nội dung còn thiếu và cách trình bày. | AI không biết đầy đủ trải nghiệm tham gia nhóm của tôi. | Tôi cung cấp điều đã học, khó khăn khi xác định bottleneck và cách muốn cải thiện nếu làm lại. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Qua việc tìm hiểu đề tài của nhóm, tôi học được cách tổ chức và phân tích một vấn đề trước khi lựa chọn cách ứng dụng AI. Với đề tài XayGame, tôi hiểu rằng cần xác định rõ người sử dụng, thông tin họ cần và nguồn dữ liệu được phép sử dụng. Tôi cũng nhận ra việc đặt giới hạn cho AI rất quan trọng: AI chỉ nên hỗ trợ trong phạm vi dữ liệu giải đấu do BTC cung cấp, thay vì tự đưa ra câu trả lời khi thiếu thông tin.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+### 6.2. Nhóm có lúc nào bị “solution-first” không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Trong quá trình tham gia, tôi chưa ghi nhận một tình huống cụ thể mà nhóm phải thay đổi hướng vì nghĩ giải pháp trước khi hiểu vấn đề. Tuy nhiên, khi tìm hiểu các phương án cho CP4, tôi nhận thấy cần kiểm tra sự cần thiết của AI. Việc có thể xây dựng một chức năng AI chưa đủ để kết luận đó là lựa chọn phù hợp với nhu cầu của tuyển thủ.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
+Ban đầu, tôi nghĩ đối tượng sử dụng là người ngoài muốn xem thông tin giải đấu. Sau khi đối chiếu lại tôi thấy actor mới chính là tuyển thủ tham gia giải. Sự điều chỉnh này giúp tôi hiểu rằng việc xác định actor ảnh hưởng đến cả nội dung cần kiểm chứng: tuyển thủ cần thể lệ, đăng ký và check-in, còn khán giả thường quan tâm lịch trận, kết quả và cách xem.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+### 6.4. Kết quả kiểm chứng hoặc research có làm tôi bất ngờ không? Điều gì?
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Điều làm tôi bất ngờ là đã có các công cụ hỗ trợ những phần việc tương tự, như tập trung thông tin, tổ chức câu hỏi theo chủ đề và quản lý dữ liệu giải đấu. Tôi nhận ra trước khi xây dựng sản phẩm mới, có thể tìm hiểu các giải pháp trên thị trường để học cách họ xử lý vấn đề. Tuy nhiên, việc công cụ đã tồn tại chưa có nghĩa là phù hợp ngay với XayGame; nhóm vẫn cần kiểm tra khả năng áp dụng trong bối cảnh của mình.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
 
----
+Với tôi, khó nhất là xác định bottleneck. Tôi chưa trực tiếp trải nghiệm quy trình tìm thông tin của tuyển thủ nên chưa chắc bước nào thực sự gây khó khăn nhất. Việc tìm thông báo, đối chiếu thông tin và chờ BTC phản hồi đều có thể là điểm nghẽn, nhưng tôi chưa có đủ bằng chứng để lựa chọn. Qua đó, tôi hiểu rằng cần phân biệt bước nghẽn giả định với bước nghẽn đã được kiểm chứng, đồng thời tránh đưa số liệu chưa xác nhận vào Problem Statement.
+
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+Nếu làm lại, tôi sẽ lên kế hoạch cụ thể theo từng bước, xác định đầu ra và thông tin cần thu thập trước khi thực hiện. Sau khi làm rõ quy trình, tôi sẽ xem bước nào có thể cần AI và tìm hiểu các giải pháp có sẵn. Cách này có thể tiết kiệm thời gian, chi phí hơn việc tự xây dựng ngay từ đầu. Tôi sẽ cân nhắc tích hợp công cụ phù hợp và chỉ tự xây phần còn thiếu. Tôi cũng sẽ đặt câu hỏi rõ hơn về bằng chứng của bottleneck và lý do lựa chọn AI thay vì phương án đơn giản hơn.
+
+### 6.7. Hiểu bài
+
+Người dùng chính của đề tài là các tuyển thủ tham gia giải đấu do XayGame tổ chức. Vấn đề nhóm đang xem xét là tuyển thủ đôi khi gặp khó khăn khi tiếp nhận và xác nhận thông tin từ BTC qua fanpage hoặc các kênh thông báo. Quy trình hiện tại gồm đọc thông báo, tìm cập nhật, đối chiếu và hỏi BTC khi chưa rõ. Với phần thông tin tôi đã nắm, bottleneck và các chỉ số đo vẫn cần được xác minh thêm. Nếu sử dụng AI, hệ thống chỉ được trả lời trong phạm vi dữ liệu giải đấu do BTC cung cấp và chuyển câu hỏi thiếu căn cứ cho người phụ trách. Hướng can thiệp có thể cân nhắc là Workflow, trong đó AI hỗ trợ tra cứu theo các bước xác định sẵn, còn BTC kiểm soát nguồn và các quyết định quan trọng. Tôi cần đối chiếu bản CP6 cuối cùng để xác nhận mức can thiệp và quyết định chính thức của nhóm.
 
 ## 7. Tài liệu tham khảo
 
--
+1. VNGGames. (2025, 18 tháng 9). *[ĐTCL - VĐQG] Tổng hợp giải đấu Vô địch Quốc gia từ ngày 18/09–28/09/2025*.  
+   https://community.vnggames.com/news/tft/dtcl-vdqg-tong-hop-giai-dau-vo-dich-quoc-gia-t-ngay-18-09-28-09-2025.html
+
+2. Notion. (Không ghi năm). *Publish a Notion Site*.  
+   https://www.notion.com/help/public-pages-and-web-publishing
+
+3. Discord. (Không ghi năm). *Forum Channels FAQ*.  
+   https://support.discord.com/hc/en-us/articles/6208479917079-Forum-Channels-FAQ
+
+4. start.gg. (Không ghi năm). *Get Event — Developer Portal*.  
+   https://developer.start.gg/docs/examples/queries/get-event/
