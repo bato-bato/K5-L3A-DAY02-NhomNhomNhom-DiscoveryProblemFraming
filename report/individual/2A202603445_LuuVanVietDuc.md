@@ -1,8 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
-
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+# Báo cáo cá nhân — 2A202603445_LuuVanVietDuc
 
 ## 1. Thông tin học viên
 
@@ -21,7 +17,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 1 | Tốn thời gian | Khi bắt đầu bài tập, tôi muốn rõ các bước và thứ tự thực hiện, để lập kế hoạch đúng yêu cầu. | Tôi | Lab 02 tại VinUni ngày 06/11/2026: tôi hiểu chưa rõ hướng dẫn phần cá nhân, làm sai bước và thiếu ý; mất thêm 25–30 phút để làm rõ yêu cầu và lập lại kế hoạch. |
 | 2 | Lặp lại | Khi tích hợp code nhóm, tôi muốn thống nhất luồng xử lý, để tránh sửa lệch yêu cầu đã chốt. | Nhóm phát triển | Khi merge phần flashcard, bài tập và HLS video, luồng xử lý xung đột, mỗi người sửa một kiểu. Người phụ trách bài tập kiểm tra lại thấy lệch đề xuất ban đầu. Tôi sửa 2 lần, tổng khoảng 3 giờ theo trí nhớ. |
 | 3 | Lặp lại | Khi template đồ án thay đổi, tôi muốn rõ phần cần chuyển và bổ sung, để cập nhật đúng và giảm làm lại. | Nhóm viết tài liệu | Template đổi từ v0.8 → v0.9 → v1.0. Mỗi lần, nhóm mất khoảng 3 ngày để cập nhật theo trí nhớ; đây là thời gian hoàn thiện, không phải ngày công/người. |
-| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi xác định yêu cầu chức năng AI, tôi muốn rõ phạm vi nội dung được phép xử lý, để chức năng đáp ứng mục tiêu học tập. | Nhóm đồ án | Khi giảng viên thử yêu cầu ngoài nội dung bài học, AI vẫn trả lời và sinh nội dung không liên quan. Nhóm chưa thiết lập ràng buộc phạm vi bài học trong prompt. |
+| 4 | Cần đọc, tổng hợp nhiều thông tin | Khi xác định yêu cầu chức năng AI, tôi muốn rõ phạm vi nội dung được phép xử lý, để chức năng đáp ứng mục tiêu học tập. | Nhóm đồ án | Khi giảng viên thử yêu cầu là cho dữ liệu về Ngữ văn 8, yêu cầu Toán 9, AI vẫn sinh Ngữ văn 8 thay vì yêu cầu làm rõ. Nhóm chưa thiết lập ràng buộc phạm vi bài học trong prompt. |
 | 5 | Cần đọc, tổng hợp nhiều thông tin | Khi nộp bài tại VinUni, tôi muốn kiểm tra đủ các bước, để tránh bỏ sót yêu cầu. | Tôi | Lab Day 01: tôi tưởng push code lên GitHub là hoàn tất nên bỏ sót Google Form; mất thêm 3–5 phút để bổ sung, vẫn kịp hạn. |
 | 6 | Cần đọc, tổng hợp nhiều thông tin | Khi làm phần việc phụ thuộc thành viên khác, tôi muốn biết yêu cầu, người phụ trách và thời điểm bàn giao, để sắp xếp công việc và tránh xung đột. | Nhóm phát triển | Tôi thường xuyên tra bảng Excel để kiểm tra yêu cầu và tiến độ; một lần tìm yêu cầu flashcard mất khoảng 3–5 phút. Với notification, phần frontend của tôi cần chờ backend của bạn khác nên phải kiểm tra người phụ trách và thời gian dự kiến hoàn thành. |
 | 7 | Lặp lại | Khi sửa chức năng sau review, tôi muốn làm rõ kỳ vọng của giảng viên, để sửa đúng và hạn chế làm lại nhiều lần. | Nhóm đồ án | Chức năng log đăng nhập chưa đúng ý giảng viên, phải sửa 2 lần. Cuối cùng, nhóm bỏ chức năng này và chỉ ghi nhận ai đang làm bài trong tính năng bài kiểm tra. |
@@ -31,8 +27,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 - Tôi đưa ra 7 vấn đề ban đầu từ trải nghiệm làm bài, học tập và đồ án nhóm.AI gợi ý bổ sung thêm các thông tin chi tiết của các vấn đề , rút gọn lại vấn đề tập trung vào trọng tâm và đặt hoài nghi cho vấn đề 7 vì chưa nói rõ ràng.
 - Tôi phản biện ý #7 vì nhóm có ghi hình tất cả các buổi review, chưa gặp tình trạng bỏ sót góp ý hoặc sửa trùng. 
 - Từ danh sách đang xem xét, AI đề xuất #2, #4 và #5 để phát triển thành Problem Card vì có phạm vi tương đối rõ và có thể bổ sung bằng chứng.
-- Tôi sẽ tự chốt top 3 sau khi kiểm tra lại trải nghiệm, quy trình và số liệu.
-
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
